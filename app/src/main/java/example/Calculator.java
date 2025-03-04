@@ -12,7 +12,6 @@ public class Calculator {
     }
 
     public int multiply(int a, int b) {
-        // TODO: Implement this method
         return a*b;
     }
 
