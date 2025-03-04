@@ -17,7 +17,10 @@ public class Calculator {
     }
 
     public double divide(int a, int b) {
-        // TODO: Implement this method
-        return 5;
+        if (b == 0){
+            System.out.println("divisor can't be zero");
+            return 0;
+        }
+        return (double) a / b;
     }
 }
